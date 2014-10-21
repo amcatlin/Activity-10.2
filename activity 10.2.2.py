@@ -8,6 +8,6 @@ for j in range(len(n)):
         if temp > n[i+1]:
             n[i] = n[i+1]
             n[i+1] = temp
-    print(n)
+print(n)
 
 #Using the two for loops it will run till the entire list is in order.
